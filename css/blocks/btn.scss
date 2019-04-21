@@ -1,0 +1,28 @@
+.btn-submit {
+    height: 54px;
+    background-color: #fff;
+    color: $orange;
+    text-transform: uppercase;
+    font-family: Gilroy;
+    font-size: 0.875rem;
+    font-weight: 800;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 80%;
+
+    margin-top: 30px;
+
+    transition-duration: .2s;
+
+    &:hover {
+        background: transparent;
+        border: 1px solid #fff;
+    }
+
+    &:active {
+        background-color: $orange;
+        color: #fff;
+    }
+
+}

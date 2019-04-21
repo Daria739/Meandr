@@ -1,0 +1,103 @@
+.welcome {
+    background-color: $grey;
+    padding-bottom: 34.063rem;
+}
+
+
+.welcome__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10.313rem;
+    padding-bottom: 7.875rem;
+}
+
+.welcome__title {
+    font-size: 3rem;
+    line-height: 1.05;
+    color: $black;
+
+    margin-bottom: 1.5rem;
+}
+
+.welcome__subtitle {
+    font-family: Roboto;
+    font-size: 1rem;
+    line-height: 1.64;
+    color: #4a4556;
+
+    margin-bottom: 1.875rem;
+
+}
+
+.welcome__img {
+    max-height: 37.5rem;
+}
+
+.welcome__img-pic {
+    
+    width: 100%;
+}
+
+.welcome__btn {
+    font-family: Gilroy;
+    font-size: 1rem;
+    font-weight: 800;
+    color: $black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+
+    transition-duration: .2s;
+
+    @include phones() {
+        text-align: left;
+        justify-content: flex-start;
+    }
+
+    &:before {
+        content: "+";
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #ebebeb;
+
+        color: $orange;
+        font-family: 'DINPro';
+        font-size: 2.188rem;
+        font-weight: 400;
+        margin-right: 0.625rem;
+        
+        
+    }
+
+    &:hover {
+        width: 300px;
+        height: 60px;
+        border-radius: 25px;
+        background-color: #ebebeb;
+        padding-right: 3%;
+
+    }
+
+    &:active { 
+        background-color: $orange;
+    }
+
+    &:focus { 
+        background-color: $orange;
+    }
+
+
+}

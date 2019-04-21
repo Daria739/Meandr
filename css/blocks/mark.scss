@@ -1,0 +1,13 @@
+.mark {
+    color: $orange;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:active {
+        text-decoration: underline;
+    }
+}

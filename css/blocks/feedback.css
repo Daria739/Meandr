@@ -1,0 +1,10 @@
+.feedback {
+  padding-top: 100px;
+  padding-bottom: 120px;
+  background-color: #161616;
+  color: #fff; }
+
+.feedback__title {
+  font-size: 40px;
+  line-height: 1.22;
+  text-align: center; }

@@ -1,0 +1,31 @@
+/* colors */
+
+$grey: #f7f5fa;
+$black: #222;
+$orange: #f47821;
+
+/* breakpoints */
+$tablets: 768px;
+$phones: 480px;
+
+/* normalize */
+@import "layout/normalize.css";
+
+/* media */
+@import "layout/media.scss";
+
+/* base settings */
+@import "layout/base.scss";
+@import "layout/fonts.scss";
+
+
+/* blocks */
+
+@import "blocks/mark.scss";
+@import "blocks/welcome.scss";
+@import "blocks/answers.scss";
+@import "blocks/about.scss";
+@import "blocks/features.scss";
+@import "blocks/feedback.scss";
+@import "blocks/form.scss";
+@import "blocks/btn.scss";

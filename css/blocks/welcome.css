@@ -1,0 +1,10 @@
+.welcome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.welcome__img {
+  width: 100%; }
+
+.welcome__img-pic {
+  height: 600px; }
